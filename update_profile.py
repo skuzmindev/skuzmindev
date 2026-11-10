@@ -119,11 +119,20 @@ query($owner: String!, $name: String!, $id: ID!, $cursor: String) {
     defaultBranchRef { target { ... on Commit {
       history(first: 100, author: {id: $id}, after: $cursor) {
         pageInfo { hasNextPage endCursor }
-        nodes { additions deletions }
+        nodes { additions deletions parents { totalCount } }
       }
     } } }
   }
 }"""
+
+
+BULK = 10_000  # lines; a single commit this big is an import, bundle, lockfile or move
+
+
+def counts(c):
+    # ponytail: size heuristic instead of per-file path filters (those need a REST call per commit);
+    # a genuine 10k+ line hand-written commit is dropped too
+    return c["parents"]["totalCount"] < 2 and max(c["additions"], c["deletions"]) <= BULK
 
 
 def loc(repo_names, user_id):
@@ -138,8 +147,9 @@ def loc(repo_names, user_id):
                 if ref is None:
                     break  # empty repo
                 h = ref["target"]["history"]
-                add += sum(n["additions"] for n in h["nodes"])
-                rem += sum(n["deletions"] for n in h["nodes"])
+                mine = [n for n in h["nodes"] if counts(n)]
+                add += sum(n["additions"] for n in mine)
+                rem += sum(n["deletions"] for n in mine)
                 if not h["pageInfo"]["hasNextPage"]:
                     break
                 cursor = h["pageInfo"]["endCursor"]
@@ -226,6 +236,9 @@ def selfcheck():
     assert age(date(1989, 1, 15), date(2026, 7, 10)) == (37, 5, 25)
     assert age(date(2000, 3, 31), date(2026, 4, 1)) == (26, 0, 1)
     assert age(date(2000, 1, 1), date(2026, 1, 1)) == (26, 0, 0)
+    c = lambda a, d, p=1: {"additions": a, "deletions": d, "parents": {"totalCount": p}}
+    assert counts(c(120, 30)) and counts(c(BULK, 0))
+    assert not counts(c(BULK + 1, 0)) and not counts(c(0, 200_000)) and not counts(c(5, 5, p=2))
     stub = dict.fromkeys(["repos", "contributed", "stars", "commits", "followers", "loc", "loc_add", "loc_del"], 0)
     for segs in info_lines(stub)[:-1]:  # LOC line is free-width by design
         assert not segs or len("".join(t for t, _ in segs)) == W, segs
