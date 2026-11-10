@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="500" viewBox="0 0 840 500" font-family="Consolas, Menlo, monospace" font-size="13px">
+<rect x="0.5" y="0.5" width="839" height="499" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<text x="195" y="62" text-anchor="middle" fill="#57606a" xml:space="preserve">               .....                      </text>
+<text x="195" y="77" text-anchor="middle" fill="#57606a" xml:space="preserve">        .:--=++++++++++-.                 </text>
+<text x="195" y="92" text-anchor="middle" fill="#57606a" xml:space="preserve">       :*+=-=---:::-++++=:                </text>
+<text x="195" y="107" text-anchor="middle" fill="#57606a" xml:space="preserve">      .=-:-======+*#%%%+===.              </text>
+<text x="195" y="122" text-anchor="middle" fill="#57606a" xml:space="preserve">      .=-+#######%%@@@@%#===              </text>
+<text x="195" y="137" text-anchor="middle" fill="#57606a" xml:space="preserve">      :*##########%%%%@@@#+*=             </text>
+<text x="195" y="152" text-anchor="middle" fill="#57606a" xml:space="preserve">      :*##*+++***++++#%@@%*=+             </text>
+<text x="195" y="167" text-anchor="middle" fill="#57606a" xml:space="preserve">      .*#+=-::=**=---+*%@@#+*-            </text>
+<text x="195" y="182" text-anchor="middle" fill="#57606a" xml:space="preserve">      .*#*++==*###**#%%@@@#+*=            </text>
+<text x="195" y="197" text-anchor="middle" fill="#57606a" xml:space="preserve">      .+####******#####%##%#*.            </text>
+<text x="195" y="212" text-anchor="middle" fill="#57606a" xml:space="preserve">       -#***++====+*++***%#+-             </text>
+<text x="195" y="227" text-anchor="middle" fill="#57606a" xml:space="preserve">       .+**=+=======++***%-               </text>
+<text x="195" y="242" text-anchor="middle" fill="#57606a" xml:space="preserve">        .+***++==+++****##=               </text>
+<text x="195" y="257" text-anchor="middle" fill="#57606a" xml:space="preserve">         .-++++==++=+*####%*.             </text>
+<text x="195" y="272" text-anchor="middle" fill="#57606a" xml:space="preserve">           :+=-----=*#%%@@@%=:.           </text>
+<text x="195" y="287" text-anchor="middle" fill="#57606a" xml:space="preserve">            =*+===+*#@@@@@#++++=:..       </text>
+<text x="195" y="302" text-anchor="middle" fill="#57606a" xml:space="preserve">            :+++++#%@@@@%+++==-:::::....  </text>
+<text x="195" y="317" text-anchor="middle" fill="#57606a" xml:space="preserve">            --=+#%@@@@@*--::::.......:::::</text>
+<text x="195" y="332" text-anchor="middle" fill="#57606a" xml:space="preserve">         ..--::.-#@@@%+:................::</text>
+<text x="195" y="347" text-anchor="middle" fill="#57606a" xml:space="preserve">       .:::-:.:=+**##=:::.................</text>
+<text x="195" y="362" text-anchor="middle" fill="#57606a" xml:space="preserve">     .:::.=-::+#####+:....................</text>
+<text x="195" y="377" text-anchor="middle" fill="#57606a" xml:space="preserve">   ..:::.+=::-*####+......................</text>
+<text x="195" y="392" text-anchor="middle" fill="#57606a" xml:space="preserve"> ....::.+*:::=####+......................:</text>
+<text x="195" y="407" text-anchor="middle" fill="#57606a" xml:space="preserve">.....:.=*:::-*###+:.......................</text>
+<text x="195" y="422" text-anchor="middle" fill="#57606a" xml:space="preserve">......-*-:::=*###-........................</text>
+<text x="390" y="45" xml:space="preserve"><tspan fill="#0969da">skuzmindev@github </tspan><tspan fill="#afb8c1">──────────────────────────────────────</tspan></text>
+<text x="390" y="87" xml:space="preserve"><tspan fill="#953800">OS: </tspan><tspan fill="#afb8c1">....................................... </tspan><tspan fill="#24292f">macOS, Linux</tspan></text>
+<text x="390" y="108" xml:space="preserve"><tspan fill="#953800">Uptime: </tspan><tspan fill="#afb8c1">..................... </tspan><tspan fill="#24292f">22 years, 9 months, 7 days</tspan></text>
+<text x="390" y="129" xml:space="preserve"><tspan fill="#953800">Host: </tspan><tspan fill="#afb8c1">........................... </tspan><tspan fill="#24292f">University of Scranton</tspan></text>
+<text x="390" y="150" xml:space="preserve"><tspan fill="#953800">Kernel: </tspan><tspan fill="#afb8c1">.............................. </tspan><tspan fill="#24292f">Software Engineer</tspan></text>
+<text x="390" y="171" xml:space="preserve"><tspan fill="#953800">IDE: </tspan><tspan fill="#afb8c1">.............................. </tspan><tspan fill="#24292f">Claude Code, VS Code</tspan></text>
+<text x="390" y="213" xml:space="preserve"><tspan fill="#953800">Languages.Programming: </tspan><tspan fill="#afb8c1">...... </tspan><tspan fill="#24292f">C, C++, Python, TypeScript</tspan></text>
+<text x="390" y="234" xml:space="preserve"><tspan fill="#953800">Languages.Real: </tspan><tspan fill="#afb8c1">............ </tspan><tspan fill="#24292f">English, Ukrainian, Russian</tspan></text>
+<text x="390" y="255" xml:space="preserve"><tspan fill="#953800">Hobbies: </tspan><tspan fill="#afb8c1">............. </tspan><tspan fill="#24292f">Cooking, Camping, Hiking, Fitness</tspan></text>
+<text x="390" y="297" xml:space="preserve"><tspan fill="#0969da">─ Contact </tspan><tspan fill="#afb8c1">──────────────────────────────────────────────</tspan></text>
+<text x="390" y="318" xml:space="preserve"><tspan fill="#953800">LinkedIn: </tspan><tspan fill="#afb8c1">............................... </tspan><tspan fill="#24292f">in/skuzmin-dev</tspan></text>
+<text x="390" y="339" xml:space="preserve"><tspan fill="#953800">Website: </tspan><tspan fill="#afb8c1">................................... </tspan><tspan fill="#24292f">skuzmin.dev</tspan></text>
+<text x="390" y="381" xml:space="preserve"><tspan fill="#0969da">─ GitHub Stats </tspan><tspan fill="#afb8c1">─────────────────────────────────────────</tspan></text>
+<text x="390" y="402" xml:space="preserve"><tspan fill="#953800">Repos: </tspan><tspan fill="#afb8c1">..... </tspan><tspan fill="#24292f">15 {Contributed: 2}</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Stars: </tspan><tspan fill="#afb8c1">............ </tspan><tspan fill="#24292f">2</tspan></text>
+<text x="390" y="423" xml:space="preserve"><tspan fill="#953800">Commits: </tspan><tspan fill="#afb8c1">................. </tspan><tspan fill="#24292f">1,370</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Followers: </tspan><tspan fill="#afb8c1">........ </tspan><tspan fill="#24292f">4</tspan></text>
+<text x="390" y="444" xml:space="preserve"><tspan fill="#953800">Lines of Code: </tspan><tspan fill="#24292f">461,758</tspan><tspan fill="#afb8c1"> ( </tspan><tspan fill="#1a7f37">1,291,053++</tspan><tspan fill="#afb8c1">, </tspan><tspan fill="#cf222e">829,295--</tspan><tspan fill="#afb8c1"> )</tspan></text>
+</svg>
